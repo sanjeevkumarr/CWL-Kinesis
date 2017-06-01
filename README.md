@@ -1,6 +1,5 @@
-# AWS SDK for Java Sample Project
-
-A simple Java application illustrating usage of the AWS SDK for Java.
+# CWL-Kinesis
+To write cwl to kineisis stream
 
 ## Requirements
 
@@ -18,6 +17,7 @@ to connect to AWS. You can do this by creating a file named "credentials" at ~/.
     [default]
     aws_access_key_id = <your access key id>
     aws_secret_access_key = <your secret key>
+    region =<your region>
 
 See the [Security Credentials](http://aws.amazon.com/security-credentials) page
 for more information on getting your keys.
