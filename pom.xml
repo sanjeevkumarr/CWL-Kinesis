@@ -3,11 +3,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.amazonaws.samples</groupId>
-    <artifactId>aws-java-sample</artifactId>
+    <artifactId>CWL-Kinesis</artifactId>
     <version>1.0</version>
     <packaging>jar</packaging>
 
-    <name>aws-java-sample</name>
+    <name>CWL-Kinesis</name>
     <url>http://aws.amazon.com/sdkforjava</url>
 
     <properties>
@@ -15,10 +15,11 @@
     </properties>
 
     <dependencies>
+        <!-- https://mvnrepository.com/artifact/com.amazonaws/aws-java-sdk -->
         <dependency>
             <groupId>com.amazonaws</groupId>
             <artifactId>aws-java-sdk</artifactId>
-            <version>1.9.6</version>
+            <version>1.11.136</version>
         </dependency>
     </dependencies>
 
