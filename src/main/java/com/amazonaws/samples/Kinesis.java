@@ -53,13 +53,10 @@ public class Kinesis {
         //Create the 
         AWSCredentialsProvider credentialsProvider = new ProfileCredentialsProvider();
         Kinesis k = new Kinesis();
-//        k.createStream(credentialsProvider);
-//        k.createRole(credentialsProvider);
+        k.createStream(credentialsProvider);
+        k.createRole(credentialsProvider);
         k.subscribeToAwsLogs(credentialsProvider);
-        
-        
-        
-
+      
 //      
     }
 
